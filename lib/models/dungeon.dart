@@ -7,6 +7,7 @@ class Dungeon {
     required this.minLevel,
     required this.maxLevel,
     this.notableLoot = const [],
+    this.isNewInForever = false,
   });
 
   /// Builds a dungeon from one entry of assets/dungeons.json.
@@ -19,6 +20,7 @@ class Dungeon {
       maxLevel: json['maxLevel'] as int,
       notableLoot:
           (json['notableLoot'] as List<dynamic>? ?? const []).cast<String>(),
+      isNewInForever: json['newInForever'] as bool? ?? false,
     );
   }
 
@@ -28,6 +30,9 @@ class Dungeon {
   final int minLevel;
   final int maxLevel;
   final List<String> notableLoot;
+
+  /// True for the dungeons added in WoW: Forever (not in the 2004 game).
+  final bool isNewInForever;
 
   /// Midpoint of the range; characters near it get the best experience.
   double get midLevel => (minLevel + maxLevel) / 2;

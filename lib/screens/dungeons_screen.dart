@@ -64,7 +64,16 @@ class DungeonsScreen extends StatelessWidget {
               .where((c) => dungeon.fitsLevel(c.level))
               .toList();
           return ListTile(
-            title: Text(dungeon.name),
+            title: Row(
+              children: [
+                Flexible(child: Text(dungeon.name)),
+                if (dungeon.isNewInForever)
+                  const Padding(
+                    padding: EdgeInsets.only(left: 8),
+                    child: Badge(label: Text('NEW')),
+                  ),
+              ],
+            ),
             subtitle: Text('${dungeon.zone} · Levels ${dungeon.levelRange}'),
             trailing: Text('${inRange.length} in range'),
             onTap: () => _showInRange(context, dungeon, inRange),
