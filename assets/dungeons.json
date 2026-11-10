@@ -1,0 +1,20 @@
+[
+  { "id": "ragefire-chasm", "name": "Ragefire Chasm", "zone": "Orgrimmar", "minLevel": 13, "maxLevel": 18 },
+  { "id": "wailing-caverns", "name": "Wailing Caverns", "zone": "The Barrens", "minLevel": 17, "maxLevel": 24 },
+  { "id": "deadmines", "name": "The Deadmines", "zone": "Westfall", "minLevel": 17, "maxLevel": 26, "notableLoot": ["Cruel Barb", "Smite's Mighty Hammer"] },
+  { "id": "shadowfang-keep", "name": "Shadowfang Keep", "zone": "Silverpine Forest", "minLevel": 22, "maxLevel": 30, "notableLoot": ["Shadowfang"] },
+  { "id": "blackfathom-deeps", "name": "Blackfathom Deeps", "zone": "Ashenvale", "minLevel": 24, "maxLevel": 32 },
+  { "id": "stockade", "name": "The Stockade", "zone": "Stormwind City", "minLevel": 24, "maxLevel": 32 },
+  { "id": "gnomeregan", "name": "Gnomeregan", "zone": "Dun Morogh", "minLevel": 29, "maxLevel": 38 },
+  { "id": "razorfen-kraul", "name": "Razorfen Kraul", "zone": "The Barrens", "minLevel": 29, "maxLevel": 38 },
+  { "id": "scarlet-monastery", "name": "Scarlet Monastery", "zone": "Tirisfal Glades", "minLevel": 34, "maxLevel": 45 },
+  { "id": "razorfen-downs", "name": "Razorfen Downs", "zone": "The Barrens", "minLevel": 37, "maxLevel": 46 },
+  { "id": "uldaman", "name": "Uldaman", "zone": "Badlands", "minLevel": 41, "maxLevel": 51 },
+  { "id": "zulfarrak", "name": "Zul'Farrak", "zone": "Tanaris", "minLevel": 44, "maxLevel": 54 },
+  { "id": "maraudon", "name": "Maraudon", "zone": "Desolace", "minLevel": 46, "maxLevel": 55 },
+  { "id": "sunken-temple", "name": "Sunken Temple", "zone": "Swamp of Sorrows", "minLevel": 50, "maxLevel": 60 },
+  { "id": "blackrock-depths", "name": "Blackrock Depths", "zone": "Burning Steppes", "minLevel": 52, "maxLevel": 60 },
+  { "id": "dire-maul", "name": "Dire Maul", "zone": "Feralas", "minLevel": 55, "maxLevel": 60 },
+  { "id": "scholomance", "name": "Scholomance", "zone": "Western Plaguelands", "minLevel": 58, "maxLevel": 60 },
+  { "id": "stratholme", "name": "Stratholme", "zone": "Eastern Plaguelands", "minLevel": 58, "maxLevel": 60 }
+]
